@@ -15,10 +15,12 @@ No build step, no dependencies — it's a single self-contained HTML file.
 Every code change must be committed and pushed to GitHub:
 
 ```bash
-git add tictactoe.html
+git add tictactoe.html   # or CLAUDE.md if that changed too
 git commit -m "<message>"
 git push
 ```
+
+The `.claude/` directory is local tooling state — do not commit it.
 
 Remote: https://github.com/oscarhui-28/tic-tac-toe (branch: `main`)
 
